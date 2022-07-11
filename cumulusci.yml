@@ -1,0 +1,27 @@
+minimum_cumulusci_version: '3.60.0'
+project:
+    name: mentorship-app
+    package:
+        name: mentorship-app
+        api_version: '54.0'
+    dependencies:
+        - github: 'https://github.com/SalesforceFoundation/NPSP'
+    git:
+        default_branch: 'feature/source-update'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/mentorship-app/tests
+            options:
+                outputdir: robot/mentorship-app/results
+
+    robot_testdoc:
+        options:
+            path: robot/mentorship-app/tests
+            output: robot/mentorship-app/doc/mentorship-app_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75

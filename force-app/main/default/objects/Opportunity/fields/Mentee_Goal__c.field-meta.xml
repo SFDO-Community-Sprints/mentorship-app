@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mentee_Goal__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Parent Opportunity to this milestone</inlineHelpText>
+    <label>Mentee Goal</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.npsp__Primary_Contact__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.npsp__Primary_Contact__c</valueField>
+        </filterItems>
+        <infoMessage>Select Mentee&apos;s Goal</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Opportunity</referenceTo>
+    <relationshipLabel>Opportunities (Mentee Goal)</relationshipLabel>
+    <relationshipName>Milstones</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

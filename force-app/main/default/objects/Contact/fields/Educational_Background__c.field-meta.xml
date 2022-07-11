@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Educational_Background__c</fullName>
+    <description>The highest level of education you have attained (approximate the equivalent if you studied outside the U.S)</description>
+    <externalId>false</externalId>
+    <label>Educational Background</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>High school diploma or GED</fullName>
+                <default>false</default>
+                <label>High school diploma or GED</label>
+            </value>
+            <value>
+                <fullName>Associate Degree</fullName>
+                <default>false</default>
+                <label>Associate Degree</label>
+            </value>
+            <value>
+                <fullName>Bachelor&apos;s degree</fullName>
+                <default>false</default>
+                <label>Bachelor&apos;s degree</label>
+            </value>
+            <value>
+                <fullName>Graduate degree (Master&apos;s, JD, Ph.D., MD)</fullName>
+                <default>false</default>
+                <label>Graduate degree (Master&apos;s, JD, Ph.D., MD)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

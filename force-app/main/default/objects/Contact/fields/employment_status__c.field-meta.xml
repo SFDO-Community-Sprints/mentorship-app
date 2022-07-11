@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>employment_status__c</fullName>
+    <externalId>false</externalId>
+    <label>Eemployment Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Employed Full-Time</fullName>
+                <default>false</default>
+                <label>Employed Full-Time</label>
+            </value>
+            <value>
+                <fullName>Employed Part_Time</fullName>
+                <default>false</default>
+                <label>Employed Part_Time</label>
+            </value>
+            <value>
+                <fullName>Employed, Multiple jobs or side hustles</fullName>
+                <default>false</default>
+                <label>Employed, Multiple jobs or side hustles</label>
+            </value>
+            <value>
+                <fullName>Student Full-Time</fullName>
+                <default>false</default>
+                <label>Student Full-Time</label>
+            </value>
+            <value>
+                <fullName>Not currently working or in school</fullName>
+                <default>false</default>
+                <label>Not currently working or in school</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

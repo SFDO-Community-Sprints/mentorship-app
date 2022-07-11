@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Career_Assistance__c</fullName>
+    <description>Type of carrier assistance requested by mentees.</description>
+    <externalId>false</externalId>
+    <label>Career Assistance</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Resume /Cover Letter Review</fullName>
+                <default>false</default>
+                <label>Resume /Cover Letter Review</label>
+            </value>
+            <value>
+                <fullName>LinkedIn Review</fullName>
+                <default>false</default>
+                <label>LinkedIn Review</label>
+            </value>
+            <value>
+                <fullName>Mock Interview</fullName>
+                <default>false</default>
+                <label>Mock Interview</label>
+            </value>
+            <value>
+                <fullName>Informational Interview/</fullName>
+                <default>false</default>
+                <label>Informational Interview/</label>
+            </value>
+            <value>
+                <fullName>Study Buddy/Study Group For Certification</fullName>
+                <default>false</default>
+                <label>Study Buddy/Study Group For Certification</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
